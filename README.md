@@ -5,6 +5,7 @@ Archived.
 ## system info
 ywl@ywl-81ns 
 ------------ 
+```
 OS: Manjaro Linux x86_64 
 Host: 81NS Legion Y7000 2019 
 Kernel: 6.2.13-1-MANJARO 
@@ -20,7 +21,7 @@ Terminal Font: MesloLGS NF
 CPU: Intel i5-9300H (8) @ 4.100GHz 
 GPU: NVIDIA GeForce GTX 1660 Ti Mobile 
 Memory: 9716MiB / 15917MiB 
-
+```
 zgrep -i 'Android' /proc/config.gz
 
 ```
@@ -36,7 +37,7 @@ CONFIG_ANDROID_BINDER_DEVICES="binder,hwbinder,vndbinder"
 ## native_bridge.tar
 
 Extracted at 20221011.
-[redroid-doc](https://github.com/remote-android/redroid-doc) is updated, it works.
+[redroid-doc](https://github.com/remote-android/redroid-doc) is updated, it works.  
 If any problem or androdi 12 needed, try this one: [zhouziyang/libndk_translation](https://github.com/zhouziyang/libndk_translation)
 
 Build image before run script.
