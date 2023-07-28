@@ -1,6 +1,9 @@
 # README
 
-Archived.
+## How to use
++ build transition-able image `./resources/build_image.sh`
++ default.sh is just a wrapper to run redroid/redroid iamge
++ wrapped examples for daily uses: fgo, azurlane
 
 ## system info
 ywl@ywl-81ns 
@@ -47,3 +50,9 @@ Build image before run script.
 + gpu host mode not works (nvidia)
 + binder causes ntfs-3g mount misconnect and hanged, cannot remount but reboot
 + no gapps
++ [ ] try data shared feat amentioned at [remote-android/redroid-doc]
+  `androidboot.use_redroid_overlayfs=1`
+ 
+## References
+
+[remote-android/redroid-doc](https://github.com/remote-android/redroid-doc)
